@@ -1,0 +1,50 @@
+
+*{
+    background-color: cyan;
+}
+
+.top{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.formulir{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    position: relative;
+    right: 190px;
+}
+
+.kembali_but{
+    margin-right: 20px;
+    border-style: solid;
+    border-width: 1.5pt;
+    background-color: coral;
+}
+
+.kembali_but a{
+    margin: 0%;
+    text-decoration: none;
+    background-color: coral;
+    color : black;
+}
+
+#regis_but{
+    background-color:gold;
+    border-style: solid;
+    border-width: 1.5pt;
+    border-color: black;
+}

@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: darkkhaki;
+    height: 50px;
+}
+
+.judul{
+    margin-left: 10px;
+}
+
+.home_icon{
+    position: relative;
+    left: 450px;
+}
+
+.profile_icon{
+    position: relative;
+    left: 170px;
+}
+
+.logout{
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tengah{
+    background-color: lightskyblue;
+    height: 635px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tengah h3{
+    margin: 0%;
+}

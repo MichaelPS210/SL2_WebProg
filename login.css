@@ -1,0 +1,60 @@
+
+*{
+    background-color: khaki;
+}
+
+.top{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 330px;
+    height: 130px;
+    background-color: aqua;
+}
+
+table{
+    background-color: aqua;
+}
+
+.isi{
+    background-color: aqua;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.kembali_but{
+    margin-left: 20px;
+    border-style: solid;
+    border-width: 1.5pt;
+    background-color: coral;
+}
+
+.kembali_but a{
+    margin: 0%;
+    text-decoration: none;
+    background-color: coral;
+    color : black;
+}
+
+#login_button{
+    background-color:gold;
+    border-style: solid;
+    border-width: 1.5pt;
+    border-color: black;
+}
