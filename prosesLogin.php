@@ -12,7 +12,7 @@
                 header('location:temp.php');
             }
             else{
-                echo "Yay";
+                header('location:login.php');
             }
         } 
     }
