@@ -12,9 +12,12 @@
                 header('location:temp.php');
             }
             else{
-                header('location:login.php');
+                $ctr = $ctr+1;
             }
         } 
+        if($ctr!=0){
+            header('location:login.php');
+        }
     }
 
      // if(isset($_SESSION)){
